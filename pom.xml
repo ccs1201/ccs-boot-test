@@ -17,7 +17,7 @@
     <dependencies>
         <dependency>
         <groupId>br.com.ccs</groupId>
-        <artifactId>boot</artifactId>
+        <artifactId>ccs-boot</artifactId>
         <version>0.0.2-SNAPSHOT</version>
     </dependency>
     </dependencies>
