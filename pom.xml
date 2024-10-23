@@ -16,10 +16,10 @@
 
     <dependencies>
         <dependency>
-        <groupId>br.com.ccs</groupId>
-        <artifactId>ccs-boot</artifactId>
-        <version>0.0.2-SNAPSHOT</version>
-    </dependency>
+            <groupId>br.com.ccs</groupId>
+            <artifactId>ccs-boot</artifactId>
+            <version>0.0.2-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 </project>
