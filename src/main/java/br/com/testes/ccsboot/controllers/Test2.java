@@ -9,8 +9,6 @@ import br.com.testes.ccsboot.models.output.ResponseTest2;
 import jakarta.inject.Inject;
 import org.slf4j.Logger;
 
-import java.time.OffsetDateTime;
-
 @Endpoint("test/2")
 public class Test2 {
 
@@ -27,7 +25,7 @@ public class Test2 {
         System.out.println("teste controller 2");
         log.info("Request: {}", request);
 
-        return new ResponseTest2(OffsetDateTime.now(),
+        return new ResponseTest2(request.dataHora(),
                 request.mensagem(),
                 HttpStatusCode.OK,
                 HttpMethod.POST,
