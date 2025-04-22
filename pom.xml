@@ -18,7 +18,7 @@
         <dependency>
             <groupId>br.com.ccs</groupId>
             <artifactId>ccs-boot</artifactId>
-            <version>0.0.2-SNAPSHOT</version>
+            <version>0.0.3-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
