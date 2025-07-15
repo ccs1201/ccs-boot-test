@@ -24,7 +24,7 @@ class Test2Test {
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create("http://localhost:8080/test/2"))
                 .header("Content-Type", "application/json")
-                .POST(HttpRequest.BodyPublishers.ofString("{\"mensagem\":\"teste\"}"))
+                .POST(HttpRequest.BodyPublishers.ofString("{\"mensagem\":\"teste\", \"aBoolean\": true}"))
                 .build();
 
         assertDoesNotThrow(() -> {

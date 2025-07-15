@@ -6,5 +6,6 @@ import br.com.ccs.boot.server.http.enums.HttpStatusCode;
 import java.time.OffsetDateTime;
 
 public record ResponseTest2(OffsetDateTime dataHora, String mensagem, HttpStatusCode status, HttpMethod method,
+                            boolean aBoolean,
                             Class<?> controllerClass) {
 }

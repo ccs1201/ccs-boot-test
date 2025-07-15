@@ -22,13 +22,14 @@ public class Test2 {
     @Endpoint.POST
     @EndpointResponseCode(HttpStatusCode.CREATED)
     public ResponseTest2 test(InputTest request) {
-        System.out.println("teste controller 2");
+        log.info("teste controller 2");
         log.info("Request: {}", request);
 
         return new ResponseTest2(request.dataHora(),
                 request.mensagem(),
                 HttpStatusCode.OK,
                 HttpMethod.POST,
+                request.aBoolean(), //!= null && request.aBoolean(),
                 this.getClass());
     }
 }
